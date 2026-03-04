@@ -57,7 +57,7 @@ jobs:
 
         # 检查是否有文件被修改
 
-        else
+        if
           git commit -m "Update rules"
           git push
         fi
