@@ -30,8 +30,8 @@ jobs:
         pip install pandas requests pyyaml
     - name: Download content
       run: |
-        URL="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt"
-        OUTPUT_FILE="./rule/adservers.txt"
+        URL="https://github.com/priceofe225-del/AdBlock_Rule_For_Clash/raw/refs/heads/main/adblock_reject.yaml"
+        OUTPUT_FILE="./rule/ablock.txt"
 
         curl -L $URL -o $OUTPUT_FILE
 
@@ -41,12 +41,13 @@ jobs:
           echo "Download failed."
           exit 1
         fi
-    - name: Convert AdGuard DNS Filter to sing-box rule set
-      run: |
-        sing-box rule-set convert --type adguard --output ./rule/adservers.srs ./rule/adservers.txt
     - name: Run script
       run: python ../main.py
       working-directory: ./rule/
+    - name: Convert AdGuard DNS Filter to sing-box rule set
+      run: |
+        sing-box rule-set compile --output ./rule/ablock.srs ./rule/ablock.json
+
     - name: Commit and push config.json
       run: |
         git config --global user.email "action@github.com"
