@@ -1,0 +1,26 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "firebaselogging.googleapis.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "konami"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "adjust.com",
+        "applilink.jp",
+        "cloudfront.net",
+        "efootballhub.net",
+        "konami.net",
+        "konaminet.jp",
+        "pesdb.net"
+      ]
+    }
+  ],
+  "version": 2
+}
