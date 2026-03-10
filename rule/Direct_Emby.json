@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+      "domain_suffix": [
+        "emby.bangumi.ca",
+        "emby.yun"
+      ]
+    }
+  ],
+  "version": 2
+}

@@ -1,0 +1,25 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "789.123456.al",
+        "cf.imetyou.top",
+        "cf.xmsl.org",
+        "emby.bangumi.ca",
+        "emby.dnscf.dpdns.org",
+        "emby.ichinosekotomi.com",
+        "emby.pilipiliultra.com",
+        "embyplus.org",
+        "lite.cn2gias.uk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.wtf",
+        "emby.yun",
+        "okemby.org"
+      ]
+    }
+  ],
+  "version": 2
+}
