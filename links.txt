@@ -16,3 +16,4 @@ https://github.com/priceofe225-del/game/raw/refs/heads/main/game.yaml
 https://github.com/priceofe225-del/AdBlock_Rule_For_Clash/raw/refs/heads/main/adblock_reject.yaml
 https://github.com/priceofe225-del/Emby/raw/refs/heads/main/Proxy_Emby.yaml
 https://github.com/priceofe225-del/Emby/raw/refs/heads/main/Direct_Emby.yaml
+https://github.com/priceofe225-del/rules/raw/refs/heads/main/douyin.yaml
