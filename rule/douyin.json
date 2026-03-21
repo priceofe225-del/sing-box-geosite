@@ -1,6 +1,11 @@
 {
   "rules": [
     {
+      "domain": [
+        "douyin.starrydyn.com"
+      ]
+    },
+    {
       "domain_suffix": [
         "activity-wbsj.com",
         "aihst8.com",
@@ -70,7 +75,6 @@
         "qishuimusic.cn",
         "qishuimusic.com.cn",
         "snssdk.com",
-        "starrydyn.com",
         "supercachenet.com",
         "supercachenode.com",
         "toutiao.com",
@@ -79,6 +83,13 @@
         "wohst8.com",
         "zijieapi.com",
         "zjcdn.com"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "106.13.244.93",
+        "111.63.65.35",
+        "221.194.130.122"
       ]
     }
   ],
