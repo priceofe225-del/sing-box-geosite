@@ -7,6 +7,9 @@
     },
     {
       "domain_suffix": [
+        "111.225.147.173",
+        "116.196.133.66",
+        "221.194.138.97",
         "activity-wbsj.com",
         "aihst8.com",
         "amemv.cn",
@@ -19,6 +22,8 @@
         "betastar.cn",
         "boxdouyin.com",
         "bytegecko.com",
+        "bytehwm.com",
+        "byteimg.com",
         "comfylink.com",
         "cookicut.com",
         "douyin.com",
@@ -66,6 +71,7 @@
         "ixiguavideo.com",
         "kesong.co",
         "kolbuyer.cn",
+        "lf9-cm.ecombdstatic.com",
         "nextvid.net",
         "ppkankan01.com",
         "pstatp.com",
@@ -89,7 +95,11 @@
       "ip_cidr": [
         "106.13.244.93",
         "111.63.65.35",
-        "221.194.130.122"
+        "117.129.2.61",
+        "182.100.44.164",
+        "221.194.130.122",
+        "36.156.185.51",
+        "8.134.241.67"
       ]
     }
   ],
